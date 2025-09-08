@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 git branch -- просмотр веток
+=======
+miuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+maaauuuu
+>>>>>>> origin/TitovaK

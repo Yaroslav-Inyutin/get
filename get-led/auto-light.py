@@ -1,13 +1,10 @@
 import RPi.GPIO as GPIO
-import time
-
 GPIO.setmode(GPIO.BCM)
 led = 26
 GPIO.setup(led, GPIO.OUT)
-state = 0
-halfperiod = 1.0
+phtr = 6
+GPIO.setup(phtr, GPIO.IN)
 while True:
+    state = GPIO.input(phtr)
     state = not state
     GPIO.output(led, state)
-    time.sleep(halfperiod)
-

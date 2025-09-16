@@ -9,5 +9,5 @@ period = 1.0
 while True:
     state = not state
     GPIO.output(led, state)
-    time.sleep(period)
+    time.sleep(half-period)
 
